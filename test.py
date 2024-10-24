@@ -2,7 +2,7 @@ import streamlit as st
 import yfinance as yf
 
 # App title
-st.write(""" ## Simple Stock Price App that shows NDAQ stock price from 2010 to 2020 """)
+st.write(""" ## Simple Stock Price App that shows NDAQ stock price.""")
 
 try:
     # Define the ticker symbol (removed the space before 'NDAQ')
