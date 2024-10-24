@@ -3,7 +3,7 @@ import yfinance as yf
 
 # App title
 st.write(""" ## Simple Stock Price App that shows NDAQ stock price.""")
-
+"""To avoid breaking in code"""
 try:
     # Define the ticker symbol (removed the space before 'NDAQ')
     tickerSymbol = 'NDAQ'
